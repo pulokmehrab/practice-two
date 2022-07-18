@@ -1,3 +1,62 @@
 body{
-    background-color: rgb(228, 225, 225);
+    margin: 10px 50px 50px;
+    background-color:rgb(244, 239, 239)
 }
+
+nav a{
+    text-decoration: none;
+    color: rgb(71, 27, 146);
+    margin-right: 20px;
+    font-size: 20px
+    width: 10;
+    padding: 20px 10px;
+  
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(237, 237, 235);
+}
+
+nav a:hover{
+    background-color: rgb(243, 49, 133);
+    
+   
+
+}
+
+.flexible-container{
+    display: flex;
+   margin-left: 20px;
+    position:relative
+}
+.halfwidth{
+    width: 60%;
+   
+   
+    
+}
+.halfwidth img{
+    
+  
+    width: 140%;
+  
+   
+    
+}
+.opnbutton{
+    text-decoration: none;
+    background-color: rgb(243, 49, 133);
+    padding: 10px 40px;
+    border-radius: 5px ;
+    color: white;
+    font-weight: 700;
+}
+
+
+hr{
+    border: 1px solid black;
+}
+
